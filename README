@@ -1,0 +1,15 @@
+This example includes the basic functionality for adding, removing, and marking tasks as complete, as well as saving tasks to localStorage so that they persist even after page reloads.
+
+Project Structure
+HTML - Basic structure of the page.
+CSS - Styles to make the application visually appealing.
+JavaScript - Logic for adding, removing, marking as complete, and saving tasks to localStorage.
+
+Code Description
+HTML: Defines the basic structure of the application, including a form for adding tasks and a list for displaying tasks.
+CSS: Applies simple styles to the interface, making it pleasant and easy to use.
+JavaScript:
+Listens to the DOMContentLoaded event to load saved tasks when the page loads.
+Adds a submit event to the form for adding new tasks.
+Functions for adding, removing, and marking tasks as complete.
+Uses localStorage to save and load tasks, ensuring that they persist after page reloads.
